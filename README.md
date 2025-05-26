@@ -1,53 +1,51 @@
-💳 Java Bank Account CLI
+# 💳 Java Bank Account CLI
 
 Este é um projeto simples de terminal (CLI) que simula uma conta bancária com funcionalidades básicas como consultar saldo, transferir e receber valores. Desenvolvido em Java com foco em orientação a objetos, é ideal para fins educacionais e demonstração de conceitos básicos de programação.
 
-📌 Funcionalidades
+## 📌 Funcionalidades
 
-✅ Consultar saldo
+* ✅ Consultar saldo
+* ✅ Transferir valores
+* ✅ Receber valores
+* ✅ Menu interativo via terminal
 
-✅ Transferir valores
+## 🧱 Estrutura do Projeto
 
-✅ Receber valores
+* `BankAccount.java`: Classe que representa a conta bancária e contém os métodos principais.
+* `BankApp.java`: Classe com o método `main`, responsável pela interação com o usuário e controle de fluxo.
 
-✅ Menu interativo via terminal
+## 🧠 Conceitos Utilizados
 
-🧱 Estrutura do Projeto
+* Programação orientada a objetos (POO)
+* Encapsulamento
+* Switch-case
+* Entrada de dados via `Scanner`
+* Estrutura de repetição `while`
 
-BankAccount.java: Classe que representa a conta bancária e contém os métodos principais.
+## 🚀 Como executar
 
-BankApp.java: Classe com o método main, responsável pela interação com o usuário e controle de fluxo.
+Este projeto foi desenvolvido e testado utilizando o **IntelliJ IDEA**. Você pode executá-lo tanto via terminal quanto diretamente pelo ambiente de desenvolvimento.
 
-🧠 Conceitos Utilizados
+1. Clone o repositório:
 
-Programação orientada a objetos (POO)
+   ```bash
+   git clone https://github.com/seu-usuario/java-bank-cli.git
+   cd java-bank-cli
+   ```
 
-Encapsulamento
+2. Compile os arquivos:
 
-Switch-case
+   ```bash
+   javac BankAccount.java BankApp.java
+   ```
 
-Entrada de dados via Scanner
+3. Execute a aplicação:
 
-Estrutura de repetição while
+   ```bash
+   java BankApp
+   ```
 
-🚀 Como executar
+## 🧑‍💻 Autor
 
-Este projeto foi desenvolvido e testado utilizando o IntelliJ IDEA. Você pode executá-lo tanto via terminal quanto diretamente pelo ambiente de desenvolvimento.
-
-Clone o repositório:
-
-git clone https://github.com/seu-usuario/java-bank-cli.git
-cd java-bank-cli
-
-Compile os arquivos:
-
-javac BankAccount.java BankApp.java
-
-Execute a aplicação:
-
-java BankApp
-
-🧑‍💻 Autor
-
-Gabriel Martinho Santos de MoraesGitHub · LinkedIn
-
+**Gabriel Martinho Santos de Moraes**
+[GitHub](https://github.com/Gaba0022) · [LinkedIn](https://www.linkedin.com/in/gabriel-martinho-3364441a4/)
